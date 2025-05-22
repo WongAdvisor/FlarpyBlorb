@@ -2,7 +2,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=unity
 
 # Ignore project settings
-ProjectSettings/
+ProjectSettings/ProjectSettings.asset
 
 ### Unity ###
 # This .gitignore file should be placed at the root of your Unity project directory
