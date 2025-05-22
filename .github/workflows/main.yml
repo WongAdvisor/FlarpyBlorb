@@ -42,6 +42,7 @@ jobs:
           targetPlatform: WebGL
 
       # Output
+      # changed the enable the Read and Write permissions
       - uses: actions/upload-artifact@v4
         with:
           name: Build
