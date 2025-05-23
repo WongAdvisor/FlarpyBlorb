@@ -1,11 +1,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/unity
 # Edit at https://www.toptal.com/developers/gitignore?templates=unity
 
-# The packages folder can be ignored because of Package Restore  
-**/[Pp]ackages/*  
-# Except for the manifest, which tells Unity which packages to install  
-!**/[Pp]ackages/manifest.json  
-
 ### Unity ###
 # This .gitignore file should be placed at the root of your Unity project directory
 #
