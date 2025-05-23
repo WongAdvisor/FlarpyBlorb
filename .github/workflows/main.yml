@@ -31,6 +31,10 @@ jobs:
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Cat Info
+        run: |
+          cat Packages/manifest.json
+          
       # Build
       - name: Build project
         uses: game-ci/unity-builder@v4
