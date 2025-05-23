@@ -31,14 +31,6 @@ jobs:
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Cat Info
-        run: |
-          cat Packages/manifest.json
-
-      - name: Clean up untracked files
-        run: |
-          git clean -fdx
-          
       # Build
       - name: Build project
         uses: game-ci/unity-builder@v4
