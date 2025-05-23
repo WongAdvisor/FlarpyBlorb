@@ -34,6 +34,10 @@ jobs:
       - name: Cat Info
         run: |
           cat Packages/manifest.json
+
+      - name: Clean up untracked files
+        run: |
+          git clean -fdx
           
       # Build
       - name: Build project
